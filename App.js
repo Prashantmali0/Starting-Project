@@ -58,6 +58,8 @@ if(!fontLoaded) {
 
 
   return (
+    <>
+    <StatusBar style="Light"/>
     <LinearGradient colors={[Colors.primary700, Colors.accent500]} style ={styles.rootScreen}>
       <ImageBackground 
         source={require('./assets/Image/background.png')}
@@ -71,6 +73,7 @@ if(!fontLoaded) {
       </ImageBackground>
 
     </LinearGradient>
+    </>
   );
 }
 
